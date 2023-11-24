@@ -26,6 +26,8 @@ const addTodo = (e) => {
   listItem.innerHTML = todo.task;
   theList.appendChild(listItem);
 
+  listItem.addEventListener("click", () => {});
+
   localStorage.setItem("completed", JSON.stringify(todos));
 };
 
