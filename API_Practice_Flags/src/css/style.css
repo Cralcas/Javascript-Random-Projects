@@ -41,6 +41,8 @@ h1 {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -94,4 +96,8 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.nationContainer {
+  width: 500px;
 }
